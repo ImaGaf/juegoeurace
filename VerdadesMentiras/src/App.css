@@ -1,0 +1,72 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.question{
+  display: flex;
+  gap: 5rem;  
+}
+
+.score{
+  padding-top: 4rem;
+  width: 20%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.score > p{
+  font-size: 45px;
+}
+
+.list {
+  width: 65%;
+  font-size: 25px;
+}
+
+.list > *:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.list > li{
+  border:  solid gray;  
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: rgba(171, 101, 168, 0.5);
+  padding: 2rem;
+}
+
+.start{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.start > button{
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  font-size: 60px;
+}
+
+.start > button:hover{
+  transform: scale(1.02);
+}
