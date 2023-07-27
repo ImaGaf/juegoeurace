@@ -200,7 +200,7 @@ const Game = (tiempoInicial) => {
     const final=()=>{
         if(index == 6){
             return true
-            index = 0
+        
         }else{
             return false
         }
